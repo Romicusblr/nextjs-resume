@@ -2,6 +2,4 @@
 title: Hobbies & Interests
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ultrices in iaculis nunc sed augue lacus viverra vitae congue. Neque viverra justo nec ultrices. Urna nunc id cursus metus aliquam eleifend mi in nulla. Proin sagittis nisl rhoncus mattis rhoncus urna neque viverra.
-
-All Markdown files will be rendered as rich text, so you can include features such as [links](#).
+Passionate about sports, particularly athletics where I achieved the title of candidate master of sports. Interested in smart home technology and automation systems. Experienced in planning and time management through balancing sports and academic pursuits. Enjoy working on technical challenges and staying current with emerging technologies in web development and blockchain.

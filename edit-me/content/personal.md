@@ -1,8 +1,8 @@
 ---
-givenName: Stacy
-familyName: Fakename
-title: Editor
-location: Cortex City, Mentopolis
+givenName: Raman
+familyName: Mastyka
+title: Full-stack Developer
+location: Poland
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ultrices in iaculis nunc sed augue lacus viverra vitae congue. Neque viverra [justo nec ultrices](#). Urna nunc id cursus metus aliquam eleifend mi in nulla. Proin sagittis nisl rhoncus mattis rhoncus urna neque viverra.
+Full-stack developer with experience in React, Redux, Express JS, and various database technologies. Skilled in blockchain development with HyperLedger Fabric and expertise in building web applications. Previously worked in automation of building systems and industrial automation. Proficient in multiple languages including English, Polish, Russian, and Belarusian.

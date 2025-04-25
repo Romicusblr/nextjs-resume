@@ -1,7 +1,7 @@
 ---
-achievement: Bachelor of Science, Journalism
-organization: Mentopolis University
-completionYear: 2016
+achievement: Master's degree, Electrical and Electronics Engineering
+organization: Belaruski Nacyjanal'ny Tehnièny Universitet
+completionYear: 2011
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ultrices in iaculis nunc sed augue lacus viverra vitae congue. Neque viverra justo nec ultrices. Urna nunc id cursus metus aliquam eleifend mi in nulla. Proin sagittis nisl rhoncus mattis rhoncus urna neque viverra. Tristique senectus et netus et malesuada fames ac.
+Completed Master's degree in Electrical and Electronics Engineering from 2005 to 2011. The program covered comprehensive education in electrical systems, electronics, and engineering principles that provided strong technical foundation for future career development.
