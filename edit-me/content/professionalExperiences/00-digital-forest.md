@@ -1,10 +1,10 @@
 ---
 organization: Digital Forest
 titles:
-  - title: Full-stack Developer
+  - title: Senior Node.js Developer
     startDate: 'August 2019'
     endDate: 'Present'
-    description: Working with React, Redux for web frontend, Express JS, Fastify, JSONRPC, and GRPC for server-side development. Using Redis, MySQL, CouchDB, and PostgresDB for database solutions. Implementing blockchain solutions with HyperLedger Fabric.
+    description: Leading development of Node.js microservices with additional expertise in .NET. Architecting cloud infrastructure with AWS, Terraform, and Ansible. Supporting frontend development with React and TypeScript.
 ---
 
-Responsible for full-stack development using various modern technologies. Front-end development with React and Redux. Server-side programming using Express JS, Fastify with JSONRPC and GRPC protocols. Database management across Redis, MySQL, CouchDB, and PostgresDB. Specializing in blockchain implementations using HyperLedger Fabric.
+Technical lead specializing in Node.js backend architecture and distributed systems. Designed and implemented high-performance microservices primarily using Node.js/NestJs and .NET Core with GRPC/REST communication. Established robust database solutions using PostgreSQL, MySQL, Redis, and CouchDB. Led cloud infrastructure development using AWS services, Terraform, and Ansible. Implemented blockchain solutions with HyperLedger Fabric. Contributed to frontend development using TypeScript and React when needed.
