@@ -1,11 +1,6 @@
 {
   "name": "nextjs-resume",
   "version": "6.0.1",
-  "author": {
-    "name": "Colin Hemphill",
-    "email": "colin@colinhemphill.com",
-    "url": "https://colinhemphill.com"
-  },
   "dependencies": {
     "@heroicons/react": "2.2.0",
     "@icons-pack/react-simple-icons": "10.2.0",
@@ -22,6 +17,7 @@
     "react": "19.0.0",
     "react-dom": "19.0.0",
     "react-pdf-html": "2.1.2",
+    "sst": "3.14.11",
     "tailwind-merge": "2.6.0"
   },
   "devDependencies": {

@@ -50,3 +50,10 @@ tsconfig.tsbuildinfo
 
 # Contentlayer
 .contentlayer
+
+# sst
+.sst
+
+
+# open-next
+.open-next
