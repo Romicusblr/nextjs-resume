@@ -7,7 +7,7 @@ const theme = resumeConfig.imageTheme;
 
 export const alt = 'Professional Résumé';
 export const contentType = 'image/png';
-export const runtime = 'edge';
+// export const runtime = 'edge';
 export const size = {
   width: 1200,
   height: 630,
