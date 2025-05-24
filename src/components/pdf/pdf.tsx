@@ -33,6 +33,11 @@ import {
   sortedProfessionalExperiences,
 } from 'src/helpers/utils';
 
+const excludedExperiences = ['03-belaruskali.md', '02-allvision.md'];
+const professionalExperiences = sortedProfessionalExperiences.filter(
+  (experience) => !excludedExperiences.includes(experience._raw.sourceFileName),
+);
+
 const theme = resumeConfig.pdfTheme;
 const albertSource = 'https://fonts.gstatic.com/s/albertsans/v1';
 const jetbrainsSource = 'https://fonts.gstatic.com/s/jetbrainsmono/v18';
@@ -310,7 +315,7 @@ export default function PDF({ privateInformation }: PDFProperties): ReactNode {
                 <Text>&nbsp;{personal.location}</Text>
               </View>
               {privateInformation?.map((privateField) => (
-                <View key={privateField._id}>
+                <View style={styles.flexRowAlignStart} key={privateField._id}>
                   <Text style={styles.bold}>{privateField.label}:&nbsp;</Text>
                   <Html {...htmlProperties}>{privateField.body.html}</Html>
                 </View>
@@ -345,7 +350,7 @@ export default function PDF({ privateInformation }: PDFProperties): ReactNode {
               <CircleBriefcase size={fontSizes.m} />
               <Text>Professional Experience</Text>
             </View>
-            {sortedProfessionalExperiences.map((professionalExperience) => (
+            {professionalExperiences.map((professionalExperience) => (
               <View key={professionalExperience._id}>
                 <View style={styles.itemHeading}>
                   <Text>{professionalExperience.organization}</Text>

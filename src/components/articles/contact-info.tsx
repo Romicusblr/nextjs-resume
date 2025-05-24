@@ -20,13 +20,13 @@ export default function ContactInformation({
 
       <ul>
         <li>
-          <strong>Location:</strong> {personal.location}
+          <strong>Location:</strong>&nbsp;{personal.location}
         </li>
 
         {/* private access required */}
         {privateInformation?.map((privateField) => (
-          <li className="mt-3" key={privateField.label}>
-            <strong>{privateField.label}</strong>{' '}
+          <li className="mt-2 flex" key={privateField.label}>
+            <strong>{privateField.label}:&nbsp;</strong>
             <div dangerouslySetInnerHTML={{ __html: privateField.body.html }} />
           </li>
         ))}
