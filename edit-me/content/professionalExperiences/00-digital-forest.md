@@ -1,7 +1,7 @@
 ---
 organization: Digital Forest
 titles:
-  - title: Senior Node.js Developer
+  - title: Senior Full-stack Developer
     startDate: 'August 2019'
     endDate: 'Present'
     description: Leading development of Node.js microservices with additional expertise in .NET. Architecting cloud infrastructure with AWS, Terraform, and Ansible. Supporting frontend development with React and TypeScript.
