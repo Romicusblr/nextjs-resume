@@ -13,7 +13,7 @@ export default $config({
           profile: 'rm_aws',
           region: 'us-east-1',
           defaultTags: {
-            tags: { Project: 'nextjs-resume', ManagedBy: 'sst' },
+            tags: { Project: 'nextjs-resume', ManagedBy: 'sst', Environment: input?.stage || 'dev' },
           },
         },
       },
@@ -21,7 +21,7 @@ export default $config({
   },
   async run() {
     new sst.aws.Nextjs('MyWeb', {
-      buildCommand: 'npm run build:opennext',
+      buildCommand: 'pnpm run build:opennext',
       domain: {
         name: 'mastyka.dev',
         redirects: ['www.mastyka.dev'],
