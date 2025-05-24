@@ -74,7 +74,9 @@
     "test:watch": "bun test --watch",
     "types": "tsc -p tsconfig.json --noEmit",
     "update": "syncpack update",
-    "yeet": "bunx rimraf bun.lockb && bunx rimraf **/{dist,node_modules,.turbo,.next,.vercel,.netlify}/ --glob && bunx rimraf **/tsconfig.tsbuildinfo --glob"
+    "yeet": "bunx rimraf bun.lockb && bunx rimraf **/{dist,node_modules,.turbo,.next,.vercel,.netlify}/ --glob && bunx rimraf **/tsconfig.tsbuildinfo --glob",
+    "deploy": "sst deploy",
+    "deploy:production": "sst deploy --stage production"
   },
   "type": "module"
 }
