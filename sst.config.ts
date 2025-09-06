@@ -2,7 +2,11 @@
 /// <reference path="./.sst/platform/config.d.ts" />
 
 export default $config({
-  app(input) {
+  async app(input) {
+    // Load local env file dynamically to avoid top-level imports (SST requirement)
+    const dotenv = await import('dotenv');
+    dotenv.config({ path: './.env.sst',  });
+
     return {
       name: 'nextjs-resume',
       removal: input?.stage === 'production' ? 'retain' : 'remove',
@@ -13,8 +17,16 @@ export default $config({
           profile: 'rm_aws',
           region: 'us-east-1',
           defaultTags: {
-            tags: { Project: 'nextjs-resume', ManagedBy: 'sst', Environment: input?.stage || 'dev' },
+            tags: {
+              Project: 'nextjs-resume',
+              ManagedBy: 'sst',
+              Environment: input?.stage || 'dev',
+            },
           },
+        },
+        cloudflare: {
+          apiToken: process.env.CLOUDFLARE_API_TOKEN,
+          version: '6.8.0',
         },
       },
     };
@@ -23,6 +35,7 @@ export default $config({
     new sst.aws.Nextjs('MyWeb', {
       buildCommand: 'pnpm run build:opennext',
       domain: {
+        dns: sst.cloudflare.dns(),
         name: 'mastyka.dev',
         redirects: ['www.mastyka.dev'],
       },

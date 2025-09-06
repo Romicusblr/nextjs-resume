@@ -26,6 +26,34 @@ This project is a fork of [nextjs-resume](https://github.com/colinhemphill/nextj
 - [Radix UI Colors](https://www.radix-ui.com/colors)
 - [SST](https://sst.dev/) for AWS deployment
 
+## Deploy with SST
+
+Minimal steps to deploy this app with SST to AWS.
+
+- Install dependencies and SST (if not already):
+
+```bash
+npm i
+npx sst@latest --help # optional: installs/updates SST CLI locally if needed
+```
+
+- Deploy to the default (dev) stage:
+
+```bash
+npx sst deploy
+```
+
+- Deploy to production:
+
+```bash
+npx sst deploy --stage production
+```
+
+Notes:
+- SST uses the `dev` stage by default when `--stage` is not provided.
+- The AWS profile used by SST is configured in `sst.config.ts` (the `aws.profile` value).
+- To avoid accidental removal of production resources, the config protects and retains resources for `production`.
+
 ## License
 
 This project follows the original license of the nextjs-resume template. See the [LICENSE](/LICENSE.md) file for details.
